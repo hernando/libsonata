@@ -1,0 +1,2 @@
+add_executable(edge_benchmark edge_benchmark.cpp)
+target_link_libraries(edge_benchmark sonata_shared HighFive)

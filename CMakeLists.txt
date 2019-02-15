@@ -102,6 +102,8 @@ target_include_directories(sonata_static
     PRIVATE $<TARGET_PROPERTY:HighFive,INTERFACE_INCLUDE_DIRECTORIES>
 )
 
+add_subdirectory(app)
+
 # =============================================================================
 # Install
 # =============================================================================

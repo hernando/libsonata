@@ -124,9 +124,9 @@ struct Population::Impl
         while (h5Root.exist(std::to_string(groupID))) {
             ++groupID;
         }
-        if (groupID != 1) {
-            throw SonataError("Only single-group populations are supported at the moment");
-        }
+        //if (groupID != 1) {
+        //    throw SonataError("Only single-group populations are supported at the moment");
+        //}
     }
 
     HighFive::DataSet getAttributeDataSet(const std::string& name) const
